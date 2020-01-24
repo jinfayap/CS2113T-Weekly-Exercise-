@@ -14,6 +14,7 @@ public class Deadline2 extends Todo2 {
     public String getBy() {
         return by;
     }
+
     @Override
     public String toString() {
         return super.toString() + System.lineSeparator() + "do by: " + by;
