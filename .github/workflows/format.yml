@@ -1,0 +1,16 @@
+# Example workflow
+name: Format Code
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2 # v2 minimum required
+      - uses: axel-op/googlejavaformat-action@v2.0.0
+        with:
+          args: "--aosp --skip-sorting-imports --replace"
