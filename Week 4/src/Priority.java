@@ -3,7 +3,7 @@ public enum Priority {
     MEDIUM,
     LOW;
 
-    public String toString(){
-                        return name().toLowerCase();
+    public String toString() {
+        return name().toLowerCase();
     }
 }
