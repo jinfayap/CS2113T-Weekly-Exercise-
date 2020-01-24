@@ -1,14 +1,20 @@
 import java.util.Scanner;
+
 public class GradeHelperMain {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Please Enter a Grade [A+, A, A-, B+, B, B-, C] to know the CAP: ");
         String gradeInput = in.nextLine();
-        System.out.println("CAP for grade " + gradeInput.toUpperCase() + " is " + GradeHelper(gradeInput.toUpperCase()));
+        System.out.println(
+                "CAP for grade "
+                        + gradeInput.toUpperCase()
+                        + " is "
+                        + GradeHelper(gradeInput.toUpperCase()));
     }
-    public static double GradeHelper(String grade){
+
+    public static double GradeHelper(String grade) {
         double cap = 0.0;
-        switch (grade){
+        switch (grade) {
             case "A+":
             case "A":
                 cap = 5.0;

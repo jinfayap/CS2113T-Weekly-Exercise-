@@ -6,7 +6,7 @@ public class PrintPriceMain {
         String itemName = item.substring(0, dividerPosition);
         String itemPrice = item.substring(dividerPosition + 3);
         itemPrice = itemPrice.replace("/", ".");
-        System.out.println(itemName.toUpperCase().trim() + ": " +  itemPrice);
+        System.out.println(itemName.toUpperCase().trim() + ": " + itemPrice);
     }
 
     public static void main(String[] args) {
