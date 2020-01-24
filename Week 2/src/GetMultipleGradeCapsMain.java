@@ -1,21 +1,23 @@
 public class GetMultipleGradeCapsMain {
-    public static void main (String[] args){
-        String[] grades = new String[]{"A+", "A", "A-"};
+    public static void main(String[] args) {
+        String[] grades = new String[] {"A+", "A", "A-"};
         double[] caps = getMultipleGradeCaps(grades);
         for (int i = 0; i < grades.length; i++) {
             System.out.println(grades[i] + ":" + caps[i]);
         }
     }
-    public static double[] getMultipleGradeCaps(String[] grades){
+
+    public static double[] getMultipleGradeCaps(String[] grades) {
         double[] gradeCaps = new double[grades.length];
-        for (int i = 0; i < grades.length; i++){
+        for (int i = 0; i < grades.length; i++) {
             gradeCaps[i] = getGradeCap(grades[i]);
         }
         return gradeCaps;
     }
-    public static double getGradeCap(String grade){
+
+    public static double getGradeCap(String grade) {
         double cap = 0.0;
-        switch (grade){
+        switch (grade) {
             case "A+":
             case "A":
                 cap = 5.0;
@@ -42,4 +44,3 @@ public class GetMultipleGradeCapsMain {
         return cap;
     }
 }
-

@@ -1,12 +1,12 @@
 import java.util.Arrays;
 
 public class FilterEmailsMain {
-    public static String[] filterEmails(String[] items){
+    public static String[] filterEmails(String[] items) {
         // TODO: add your code here
         String[] filteredEmails = new String[items.length];
         int matchedCount = 0;
-        for (String item : items){
-            if(item.contains("@")){
+        for (String item : items) {
+            if (item.contains("@")) {
                 filteredEmails[matchedCount] = item;
                 matchedCount++;
             }
@@ -14,15 +14,17 @@ public class FilterEmailsMain {
         return Arrays.copyOf(filteredEmails, matchedCount);
     }
 
-    public static void printItems(String[] items){
+    public static void printItems(String[] items) {
         // TODO: add your code here
         System.out.println(Arrays.toString(items));
     }
 
     public static void main(String[] args) {
-        printItems(filterEmails(new String[]{}));
-        printItems(filterEmails(new String[]{"abc"}));
-        printItems(filterEmails(new String[]{"adam@example.com", "aab", "john@example.com", "some@"}));
-        printItems(filterEmails(new String[]{"xyz", "@bee.com", "aab"}));
+        printItems(filterEmails(new String[] {}));
+        printItems(filterEmails(new String[] {"abc"}));
+        printItems(
+                filterEmails(
+                        new String[] {"adam@example.com", "aab", "john@example.com", "some@"}));
+        printItems(filterEmails(new String[] {"xyz", "@bee.com", "aab"}));
     }
 }

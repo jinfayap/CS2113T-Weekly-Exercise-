@@ -1,11 +1,12 @@
 public class GetGradeCapMain {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         System.out.println("A+: " + getGradeCap("A+"));
         System.out.println("B : " + getGradeCap("B"));
     }
-    public static double getGradeCap(String grade){
+
+    public static double getGradeCap(String grade) {
         double cap = 0.0;
-        switch (grade){
+        switch (grade) {
             case "A+":
             case "A":
                 cap = 5.0;
