@@ -1,4 +1,6 @@
-public class CompareNamesMain {
+package ex1ex2;
+
+public class Main {
     public static void main(String[] args) {
         String first = args[0];
         String second = args[1];

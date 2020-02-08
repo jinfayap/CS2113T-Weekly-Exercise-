@@ -1,3 +1,5 @@
+package ex2;
+
 public class Task {
     protected String description;
 
@@ -7,5 +9,9 @@ public class Task {
 
     public String getDescription() {
         return description;
+    }
+    //@Override
+    public String toString(){
+        return "description: " + description;
     }
 }

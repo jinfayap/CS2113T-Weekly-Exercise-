@@ -1,5 +1,7 @@
+package ex7;
+
 // [Key Exercise] printPrice
-public class PrintPriceMain {
+public class Main {
     public static void printPrice(String item) {
         // TODO: add your code here
         int dividerPosition = item.indexOf("--");

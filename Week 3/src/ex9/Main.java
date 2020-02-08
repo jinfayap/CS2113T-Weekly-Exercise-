@@ -1,6 +1,8 @@
+package ex9;
+
 import java.util.Arrays;
 
-public class FilterEmailsMain {
+public class Main {
     public static String[] filterEmails(String[] items) {
         // TODO: add your code here
         String[] filteredEmails = new String[items.length];

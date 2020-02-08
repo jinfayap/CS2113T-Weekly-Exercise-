@@ -1,4 +1,6 @@
-public class TaskMain {
+package ex1;
+
+public class Main {
     public static void main(String[] args) {
         // create a todo task and print details
         Todo t = new Todo("Read a good book");

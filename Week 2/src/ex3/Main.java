@@ -1,18 +1,9 @@
-public class GetMultipleGradeCapsMain {
-    public static void main(String[] args) {
-        String[] grades = new String[] {"A+", "A", "A-"};
-        double[] caps = getMultipleGradeCaps(grades);
-        for (int i = 0; i < grades.length; i++) {
-            System.out.println(grades[i] + ":" + caps[i]);
-        }
-    }
+package ex3;
 
-    public static double[] getMultipleGradeCaps(String[] grades) {
-        double[] gradeCaps = new double[grades.length];
-        for (int i = 0; i < grades.length; i++) {
-            gradeCaps[i] = getGradeCap(grades[i]);
-        }
-        return gradeCaps;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("A+: " + getGradeCap("A+"));
+        System.out.println("B : " + getGradeCap("B"));
     }
 
     public static double getGradeCap(String grade) {

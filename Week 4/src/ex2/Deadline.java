@@ -1,8 +1,10 @@
-public class Deadline2 extends Todo2 {
+package ex2;
+
+public class Deadline extends Todo {
 
     protected String by;
 
-    public Deadline2(String description, String by) {
+    public Deadline(String description, String by) {
         super(description);
         this.by = by;
     }

@@ -14,13 +14,13 @@ public class Todo2 extends Task2 {
         return isDone;
     }
 
-    public String toString(){
-      String status = null;
-      if (isDone) {
-         status = "Yes";
-      } else {
-          status = "No";
-      }
-      return super.toString() + System.lineSeparator() + "is done? " + status;
+    public String toString() {
+        String status = null;
+        if (isDone) {
+            status = "Yes";
+        } else {
+            status = "No";
+        }
+        return super.toString() + System.lineSeparator() + "is done? " + status;
     }
 }

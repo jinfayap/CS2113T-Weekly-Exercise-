@@ -1,4 +1,6 @@
-public class PrintTotalScoreMain {
+package ex8;
+
+public class Main {
     public static void printTotalScore(String[] values) {
         // TODO: add your code here
         int sum = 0;
