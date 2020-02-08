@@ -1,3 +1,5 @@
+package ex1;
+
 public class Deadline extends Todo {
     private String by;
 

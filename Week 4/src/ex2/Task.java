@@ -1,7 +1,9 @@
-public class Task2 {
+package ex2;
+
+public class Task {
     protected String description;
 
-    public Task2(String description) {
+    public Task(String description) {
         this.description = description;
     }
 

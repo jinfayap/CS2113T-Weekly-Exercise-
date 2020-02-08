@@ -1,6 +1,8 @@
+package ex1ex2;
+
 import java.awt.Rectangle;
 
-public class RectangleMain {
+public class Main {
     public static void main(String[] args) {
 
         Rectangle r;

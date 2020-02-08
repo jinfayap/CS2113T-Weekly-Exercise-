@@ -1,4 +1,6 @@
-public class ShowPriorityColorMain {
+package ex4;
+
+public class Main {
 
     public static void describe(String color, Priority level) {
 

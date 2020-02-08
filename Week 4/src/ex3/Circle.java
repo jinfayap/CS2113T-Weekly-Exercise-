@@ -1,3 +1,5 @@
+package ex3;
+
 public class Circle extends Shape{
 
     private int radius;

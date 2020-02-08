@@ -1,7 +1,9 @@
-public class Todo2 extends Task2 {
+package ex2;
+
+public class Todo extends Task {
     protected boolean isDone;
 
-    public Todo2(String description) {
+    public Todo(String description) {
         super(description);
         isDone = false;
     }

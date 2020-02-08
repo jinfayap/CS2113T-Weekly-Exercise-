@@ -1,7 +1,9 @@
+package ex3;
+
 import java.awt.Point;
 import java.awt.Rectangle;
 
-public class RectanglePointMain {
+public class Main {
     public static void main(String[] args) {
         Point p1 = new Point(0, 0);
         Rectangle r1 = new Rectangle(2, 3, 5, 6);
