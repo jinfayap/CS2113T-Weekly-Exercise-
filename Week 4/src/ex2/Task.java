@@ -10,8 +10,8 @@ public class Task {
     public String getDescription() {
         return description;
     }
-    //@Override
-    public String toString(){
+    // @Override
+    public String toString() {
         return "description: " + description;
     }
 }

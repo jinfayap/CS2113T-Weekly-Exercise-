@@ -4,7 +4,7 @@ public class Main {
 
     public static void describe(String color, Priority level) {
 
-        System.out.println(color + " indicates " + level  + " priority");
+        System.out.println(color + " indicates " + level + " priority");
     }
 
     public static void main(String[] args) {

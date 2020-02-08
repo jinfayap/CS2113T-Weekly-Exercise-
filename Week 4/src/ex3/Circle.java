@@ -1,6 +1,4 @@
-package ex3;
-
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     private int radius;
 
@@ -9,6 +7,6 @@ public class Circle extends Shape{
     }
 
     public int area() {
-        return (int)(Math.PI * radius * radius);
+        return (int) (Math.PI * radius * radius);
     }
 }

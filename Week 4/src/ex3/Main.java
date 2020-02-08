@@ -1,7 +1,5 @@
-package ex3;
-
-public class Main {
-    //TODO add your methods here
+public class PrintShapeAreaMain {
+    // TODO add your methods here
     private static Shape[] shapes = new Shape[100];
     public static int shapeCount = 0;
 
